@@ -7,9 +7,15 @@
 
 ### 1) Création des environnements conda 
 
-Table des matières 
- 1- ___Contrôle qualité___
- 2- ___
+####__Table des matières__ 
+ __1- Contrôle qualité__  
+ __2- Correction des reads__  
+ __3- Assemblage__  
+ __4- Annotation du génome__  
+ __5- Recherche de gène(s) et/ou de plasmide(s) de virulence__  
+ __6- Average Nucleotidique identity__  
+ __7- Typage des souches de *Escherichia*__  
+ __8- Construire d'arbre phylogénétique__  
 
 
 
@@ -21,7 +27,7 @@ conda create -n mlst -c bioconda -c conda-forge -y
 ````
 Explication des paramètres :
 
-  conda create : Permet de créer un environnement conda
-    -n : donne le nom de l'environnement
-      -c : ajoute un channel dans l'environnement
-        -y : répondre "yes" à tout
+  conda create : Permet de créer un environnement conda  
+  -n : donne le nom de l'environnement  
+  -c : ajoute un channel dans l'environnement  
+  -y : répondre "yes" à tout
