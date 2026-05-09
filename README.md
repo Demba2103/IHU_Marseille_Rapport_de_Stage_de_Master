@@ -5,7 +5,12 @@
 
 #### Titre Mémoire : Caractérisation d’*Escherichia marmotae* chez des enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) grâce à la culturomique et à la métagénomique.
 
+### 1) Création des environnements conda 
+
 ````
-conda activate prokka
+conda create -n amr -c bioconda -c conda-forge -y
+conda create -n busco -c bioconda -c conda-forge -y
+conda create -n abricate -c bioconda -c conda-forge -y
+conda create -n mlst -c bioconda -c conda-forge -y
 ````
 
