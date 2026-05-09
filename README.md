@@ -7,14 +7,14 @@
 
   
 ###Table des matières    
- 2)* __- Contrôle qualité__  
- __- Correction des reads__  
- __3- Assemblage__  
- __4- Annotation du génome__  
- __5- Recherche de gène(s) et/ou de plasmide(s) de virulence__  
- __6- Average Nucleotidique identity__  
- __7- Typage des souches de *Escherichia*__  
- __8- Construire d'arbre phylogénétique__  
+ * __ Contrôle qualité__  
+ * __ Correction des reads__  
+ * __ Assemblage__  
+ * __ Annotation du génome__  
+ * __ Recherche de gène(s) et/ou de plasmide(s) de virulence__  
+ * __ Average Nucleotidique identity__  
+ * __ Typage des souches de *Escherichia*__  
+ * __ Construire d'arbre phylogénétique__  
 
 
 ### 1) Création des environnements conda 
