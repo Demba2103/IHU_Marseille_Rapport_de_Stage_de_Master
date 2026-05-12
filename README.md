@@ -8,9 +8,8 @@ __EQUIPE CULTUROMICS__
 
 <img width="827" height="244" alt="Image" src="https://github.com/user-attachments/assets/3a0e89ab-5b22-4879-ab3d-3a637e070ddb" />
 
-__Caractérisation génomique de souches *Escherichia marmotae* chez des enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) grâce à la culturomique et à la métagénomique__.
+__Caractérisation génomique de souches *Escherichia marmotae* chez des enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) grâce à la culturomique et à la métagénomique__.  
 
-  
 [__Table des matières__](Table)   
 *  [__Contrôle qualité__](contrôle)  
 *  [__Correction des reads__](correction) 
