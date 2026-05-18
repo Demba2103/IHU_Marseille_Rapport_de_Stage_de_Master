@@ -1,0 +1,7 @@
+#!/bin/bash
+
+quast.py \
+/home/demba_ba/WGS/files/spades_assemblies/SRR10058833/contigs.fasta \
+/home/demba_ba/WGS/files/spades_assemblies/SRR10058838/contigs.fasta \
+/home/demba_ba/WGS/files/spades_assemblies/SRR10058842/contigs.fasta \
+-o quast_results

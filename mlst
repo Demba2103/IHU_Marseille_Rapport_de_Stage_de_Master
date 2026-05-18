@@ -1,0 +1,11 @@
+
+
+#!/bin/bash
+
+echo "sample,scheme,alleles,ST" > mlst_results.csv
+
+for s in SRR10058833 SRR10058838 SRR10058842
+do
+    mlst /home/demba_ba/WGS/files/spades_assemblies/$s/contigs.fasta \
+    | awk -v sample=$s '{print sample","$2","$3","$NF}' >> mlst_results.csv
+done
