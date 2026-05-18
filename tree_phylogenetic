@@ -1,0 +1,16 @@
+
+
+#!/bin/bash
+
+ 
+#Installation de FastTree 
+
+wget https://morgannprice.github.io/fasttree/
+
+# Rendre le fichier executable 
+
+chmod +x FastTree
+
+#Construire de l'arbre phylogénétique 
+
+./FastTree -nt core_gene_alignment.aln > tree.nwk

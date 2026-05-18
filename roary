@@ -1,0 +1,11 @@
+
+
+#!/bin/bash
+
+##roary pour plusieurs dossiers 
+#-e : utilise une méthode plus stricte pour identifier les gènes core
+#-n : produit un alignement nucléotidique des gènes core
+# -v: mode verbose : affiche plus de détails pendant l’exécution.
+#-p :utilise 8 threads CPU 
+
+roary -e -n -v -p 8 SRR10058833/*.gff SRR10058838/*.gff SRR10058842/*.gff
