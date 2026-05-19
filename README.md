@@ -12,11 +12,17 @@ Culture bacterienne                |  Extraction ADN
 
 
 **🔵Description** :  
-Cette étude a pour but de faire la caractérisation du génome d'*Escherichia marmotae*  grâce à la culture sélective sur Mac Conkey (MC) sur des échantillons de selles provenants d'enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) et au séqence du génome entier(le whole génome sequencing,WGS) de nos souches. Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré unefréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.    
+Cette étude sur l'etude du microbiote chez enfants atteints de malnutrition aigue sévère a pour but de faire la caractérisation du génome d'*Escherichia marmotae*  grâce à la culture sélective sur Mac Conkey (MC) sur des échantillons de selles provenants d'enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) et au séqence du génome entier(le whole génome sequencing,WGS) de nos souches. Cette bactérie Gram négative de la famille des *Enterobacteriaceae* est souvent confondue à *E. coli* du fait de sa promiximité génomique ne présentant que 10% de différence sur l'ensemble de son génome.
+De plus des études récentes ont montrés une certaine résistance aux antibiotiques notamment les betalacmines mais desn cas de septiémies et colinsation de l'intestin de l'homme.  
+
+**📌Objecif :**  
+Ainsi l'objectif de cette étude d'isoler cette bactérie en culture et de pouvoir analyser son génome grâce à la bioinformatique.  
+
+ **📍Echantillons** :  
+ Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré unefréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.    
 
   
-**📌Objecif :**  
-Ainsi l'objectif de cette étude d'isoler cette bactérie en culture et de pouvoir son génome grâce à la bioinformatique   
+
 
 [__Table des matières__](Table)   
 *  [__Contrôle qualité__](contrôle)  
