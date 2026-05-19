@@ -4,7 +4,7 @@
     STAGE DE MÉMOIRE DE MASTER 1 : ANALYSE BIOINFORMATIQUE DES DONNÉES DE SÉQUENCAGE SHOTGUN
   </strong>
 </p>
-
+ 
  <img width="414" height="122" alt="image" src="https://github.com/user-attachments/assets/0ea6c372-5c49-4cb4-9afa-5731d155801b" /> <img align="right" width="250" height="103" alt="image" src="https://github.com/user-attachments/assets/6198ae93-0de2-43a4-8a68-aa808c83b899" />   
 
       
