@@ -1,17 +1,22 @@
-[__STAGE DE MEMOIRE DE MASTER 1 : ANALYSE BIOINFORMATIQUE DES DONNEES DE SEQUENCAGE SHOTGUN__](Mémoire)  
+**STAGE DE MEMOIRE DE MASTER 1 : ANALYSE BIOINFORMATIQUE DES DONNEES DE SEQUENCAGE SHOTGUN**  
 
-[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/megahit/README.html)
+ <img width="414" height="122" alt="image" src="https://github.com/user-attachments/assets/0ea6c372-5c49-4cb4-9afa-5731d155801b" />  |<img align="right" width="250" height="103" alt="image" src="https://github.com/user-attachments/assets/6198ae93-0de2-43a4-8a68-aa808c83b899" />   
 
-__IHU Méditerranée Infection de MARSEILLE__      
+      
+### EQUIPE CULTUROMICS    
 
-__EQUIPE CULTUROMICS__  
+Culture bacterienne                |  Extraction ADN
+:------------------------------:|:-------------------------:
+<img align="left" width="420" height="353" alt="Image" src="https://github.com/user-attachments/assets/002d21a4-f70e-44fd-bb4f-4b96e2884d04" />                |   <img align="right" width="500" height="200" alt="Image" src="https://github.com/user-attachments/assets/ff3a5b98-1ae5-45d4-9696-b099728895ca" />
+<img src="https://github.com/Joseph7e/HCGS-Genomics-Tutorial/blob/master/fragmentation3.png?raw=true" width="800">   
 
-<img width="827" height="244" alt="Image" src="https://github.com/user-attachments/assets/3a0e89ab-5b22-4879-ab3d-3a637e070ddb" />  
 
-<img width="420" height="353" alt="Image" src="https://github.com/user-attachments/assets/002d21a4-f70e-44fd-bb4f-4b96e2884d04" />   <img width="2000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/ff3a5b98-1ae5-45d4-9696-b099728895ca" />
-<img src="https://github.com/Joseph7e/HCGS-Genomics-Tutorial/blob/master/fragmentation3.png?raw=true" width="800">
+**🔵Description** :  
+Cette étude a pour but de faire la caractérisation du génome d'*Escherichia marmotae*  grâce à la culture sélective sur Mac Conkey (MC) sur des échantillons de selles provenants d'enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) et au séqence du génome entier(le whole génome sequencing,WGS) de nos souches. Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré unefréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.    
 
-__Caractérisation génomique de souches *Escherichia marmotae* chez des enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC) grâce à la culturomique et à la métagénomique__.  
+  
+**📌Objecif :**  
+Ainsi l'objectif de cette étude d'isoler cette bactérie en culture et de pouvoir son génome grâce à la bioinformatique   
 
 [__Table des matières__](Table)   
 *  [__Contrôle qualité__](contrôle)  
@@ -25,7 +30,7 @@ __Caractérisation génomique de souches *Escherichia marmotae* chez des enfants
  
 
 
-### 1) Création des environnements conda 
+**1) Création des environnements conda**
 ````
 conda create -n amr -c bioconda -c conda-forge -y
 conda create -n busco -c bioconda -c conda-forge -y
