@@ -8,7 +8,7 @@
       
 <p align="center">
   <strong>EQUIPE 1 Culturomics</strong>
-</p> EQUIPE CULTUROMICS    
+</p>   
 
 Culture bacterienne                |  Extraction ADN
 :------------------------------:|:-------------------------:
@@ -18,11 +18,12 @@ Culture bacterienne                |  Extraction ADN
 
 
 ## [🔵Description : ](description)    
-Cette étude portant sur le microbiote chez enfants atteints de malnutrition aigue sévère a pour but de faire la caractérisation du génome d'*Escherichia marmotae*  grâce au séqence du génome entier(le whole génome sequencing, WGS) et la culture sélective sur Mac Conkey (MC) sur des échantillons de selles provenants d'enfants atteints de malnutrition aiguë sévère en République Démocratique du Congo (RDC). Cette bactérie Gram négative de la famille des *Enterobacteriaceae* est souvent confondue à *E. coli* du fait de sa promiximité génomique et ne présentant que 10% de différence sur l'ensemble de son génome. De plus, des études récentes ont montrés une certaine résistance aux antibiotiques notamment àla famille des betalactamines mais égalemment des cas de septiémie chez l'homme.
+Cette étude portant sur le microbiote chez enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de pouvoir caractériser le génome d'*Escherichia marmotae*  grâce au séqençage du génome entier(le whole génome sequencing, WGS) et à une culture sélective sur Mac Conkey (MC). Cette bactérie Gram négative de la famille des *Enterobacteriaceae* a été décrite commme une espèces en 2015 à partir de son isolement de féces de marmotte d'ou son nom *Escherichia marmotae*. Elle est souvent confondue à *E. coli* du fait de sa promiximité génomique ne présentant que 10% de différence sur l'ensemble de leur génome. De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de resistance aux antibiotiques notamment de la famille des betalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse. De plus, des cas de septiémies chez l'homme ont été récemment décrites d'où la nécessité d'une surveillance accrue.
 
-**📌Objecif :** L'objectif de cette étude est d'isoler cette bactérie en culture pour pouvoir caractériser son génome grâce à l'analyse bioinformatique.  
+#### [📌Objecif : ](objectif)   
+Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour pouvoir caractériser son génome grâce à l'analyse bioinformatique.  
 
- **📍Echantillons** :
+ #### [📍Echantillons : ](echanti)
  Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.      
 
  Sur cette repository, nous avons chargé l'ensemble des fichiers et scripts nécessaires pour analyser ces données.
@@ -51,6 +52,7 @@ Cette étude portant sur le microbiote chez enfants atteints de malnutrition aig
  
 
 
+  
 **1) Création des environnements conda**
 ````
 conda create -n amr -c bioconda -c conda-forge -y
@@ -59,8 +61,7 @@ conda create -n abricate -c bioconda -c conda-forge -y
 conda create -n mlst -c bioconda -c conda-forge -y
 ````
 Explication des paramètres :
-
-  conda create : Permet de créer un environnement conda  
+  conda create : permet de créer un environnement conda  
   -n : donne le nom de l'environnement  
   -c : ajoute un channel dans l'environnement  
   -y : répondre "yes" à tout
