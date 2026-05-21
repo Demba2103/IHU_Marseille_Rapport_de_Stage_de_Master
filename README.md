@@ -72,30 +72,43 @@ Explication des paramètres :
   -y : répondre "yes" à tout   
 
 
-   *  [__Contrôle qualité__](fastqc) :
+ #    [__Contrôle qualité__](fastqc) :
   
-FastQC vise à simplifier le contrôle qualité des données de séquençage brutes issues des pipelines de séquençage à haut débit.  
-FastQC est une application qui analyse un fichier FastQ et exécute une série de tests afin de générer un rapport de contrôle qualité complet. Ce rapport vous indiquera si votre séquence présente des anomalies. Chaque test est signalé comme réussi, avec avertissement ou en échec, selon son écart par rapport aux résultats attendus pour un jeu de données volumineux et normal, sans biais significatifs. Il est important de souligner que les avertissements, voire les échecs, ne signifient pas nécessairement un problème avec vos données, mais simplement un comportement inhabituel. La nature biologique de votre échantillon peut expliquer ce biais particulier observé dans vos résultats.
+FastQC est un outil de contrôle qualité conçu pour analyser les données de séquençage brutes issues des technologies de séquençage à haut débit (High Throughput Sequencing).
 
-FastQC peut être exécuté soit comme une application graphique interactive permettant de visualiser les résultats de plusieurs fichiers dans une seule application, soit de manière non interactive (par exemple, dans le cadre d'un pipeline), ce qui générera un rapport HTML pour chaque fichier traité.  
+Il permet d’évaluer rapidement la qualité des fichiers FASTQ en exécutant plusieurs tests statistiques et graphiques afin de générer un rapport de qualité détaillé.
 
-  *  [__Correction des reads__](correction) :
-      
-     *  Trimmomatic v.0.39 :
+Les résultats sont classés en trois catégories :  
+❌ : Fail  
+✅ : Pass  
+🟨 : Warning  
+FastQC peut être utilisé :
+
+* en mode graphique interactif pour visualiser plusieurs rapports simultanément ;
   
+* en mode ligne de commande pour une intégration dans des pipelines bioinformatiques automatisés.
+
+Les rapports générés incluent notamment :
+
+  * la qualité des bases ;
+  * le contenu en GC ;
+  * la présence d’adaptateurs ;
+  * les séquences dupliquées ;
+  * la distribution des longueurs de lectures 
+
+
+#  [__Correction des reads__](correction) :  
 Trimmomatic est un outil bioinformatique largement utilisé pour le prétraitement des données de séquençage nouvelle génération (NGS) Illumina. Il élimine les bases de faible qualité, les adaptateurs de séquençage et les régions indésirables des fichiers FASTQ. Il permet aux chercheurs d'améliorer la précision et la fiabilité de l'analyse génomique avant de passer aux étapes suivantes : alignement, assemblage, analyse RNA-Seq et détection de variants.
 Conçu pour offrir flexibilité et performance, Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche. Le logiciel propose des méthodes d'élagage avancées telles que le filtrage de qualité par fenêtre glissante, le découpage des adaptateurs, l'élagage des bases en amont et en aval, et le filtrage de longueur minimale. Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.  
 
-*  [__Assemblage__](assemblage)
-   * spades
-# À propos de SPAdes
+  ### __Citations__ :  
+Bolger, AM, Lohse, M., & Usadel, B. (2014). Trimmomatic : un outil de nettoyage flexible pour les données de séquences Illumina. Bioinformatics , btu170. 
 
-SPAdes est une boîte à outils polyvalente conçue pour l'assemblage et l'analyse des données de séquençage.
-SPAdes est principalement conçu pour les données de séquençage Illumina, mais peut également être utilisé pour Ion Torrent. La plupart des pipelines SPAdes prennent en charge le mode hybride, c'est-à-dire qu'ils permettent d'utiliser des lectures longues (PacBio et Oxford Nanopore) comme données supplémentaires.
-
-Le package SPAdes contient des pipelines d'assemblage pour les données bactériennes isolées et unicellulaires, ainsi que des données métagénomiques et transcriptomiques.
-Des modes supplémentaires permettent de découvrir des plasmides bactériens et des virus à ARN, ainsi que d'effectuer un assemblage guidé par HMM.
-En outre, le package SPAdes comprend des outils supplémentaires pour le comptage efficace des k-mers et le filtrage des lectures basé sur les k-mers, la construction et la simplification de graphes d'assemblage, l'alignement séquence-graphe et l'amélioration du regroupement métagénomique.
+#   [__Assemblage__](assemblage)
+   
+🧬SPAdes : est une boîte à outils bioinformatique polyvalente dédiée à l’assemblage et à l’analyse des données de séquençage.
+Initialement développé pour les données Illumina, SPAdes prend également en charge les données Ion Torrent ainsi que les approches hybrides intégrant des lectures longues issues de PacBio ou Oxford Nanopore Technologies (ONT).
+Le package SPAdes comprend d'autres outils pour le comptage efficace des k-mers et le filtrage des lectures basé sur les k-mers, la construction et la simplification de graphes d'assemblage, l'alignement séquence-graphe et l'amélioration du regroupement métagénomique.
 
 - [Manuel d'utilisation complet de SPAdes](https://ablab.github.io/spades/)
 
@@ -115,7 +128,11 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 
 SPAdes permet d'assembler des génomes, des métagénomes, des transcriptomes, des génomes viraux, etc.
 
-Téléchargez les binaires SPAdes pour Linux ou macOS [ici](https://github.com/ablab/spades/releases/latest/). Vous pouvez également compiler SPAdes à partir du [code source](https://github.com/ablab/spades/releases/latest/) (nécessite g++ 9.0+, cmake 3.16+, zlib et libbz2). SPAdes requiert uniquement Python 3.8+.
+Téléchargez les binaires SPAdes pour Linux ou macOS [ici](https://github.com/ablab/spades/releases/latest/). Vous pouvez également compiler SPAdes à partir du [code source](https://github.com/ablab/spades/releases/latest/) (nécessite g++ 9.0+, cmake 3.16+, zlib et libbz2). SPAdes requiert uniquement Python 3.8+.  
+
+
+ 
+
 
 
 
