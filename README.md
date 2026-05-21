@@ -84,7 +84,48 @@ FastQC peut être exécuté soit comme une application graphique interactive per
      *  Trimmomatic v.0.39 :
   
 Trimmomatic est un outil bioinformatique largement utilisé pour le prétraitement des données de séquençage nouvelle génération (NGS) Illumina. Il élimine les bases de faible qualité, les adaptateurs de séquençage et les régions indésirables des fichiers FASTQ. Il permet aux chercheurs d'améliorer la précision et la fiabilité de l'analyse génomique avant de passer aux étapes suivantes : alignement, assemblage, analyse RNA-Seq et détection de variants.
-Conçu pour offrir flexibilité et performance, Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche. Le logiciel propose des méthodes d'élagage avancées telles que le filtrage de qualité par fenêtre glissante, le découpage des adaptateurs, l'élagage des bases en amont et en aval, et le filtrage de longueur minimale. Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.
+Conçu pour offrir flexibilité et performance, Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche. Le logiciel propose des méthodes d'élagage avancées telles que le filtrage de qualité par fenêtre glissante, le découpage des adaptateurs, l'élagage des bases en amont et en aval, et le filtrage de longueur minimale. Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.  
+
+*  [__Assemblage__](assemblage)
+   * spades
+# À propos de SPAdes
+
+SPAdes est une boîte à outils polyvalente conçue pour l'assemblage et l'analyse des données de séquençage.
+SPAdes est principalement conçu pour les données de séquençage Illumina, mais peut également être utilisé pour Ion Torrent. La plupart des pipelines SPAdes prennent en charge le mode hybride, c'est-à-dire qu'ils permettent d'utiliser des lectures longues (PacBio et Oxford Nanopore) comme données supplémentaires.
+
+Le package SPAdes contient des pipelines d'assemblage pour les données bactériennes isolées et unicellulaires, ainsi que des données métagénomiques et transcriptomiques.
+Des modes supplémentaires permettent de découvrir des plasmides bactériens et des virus à ARN, ainsi que d'effectuer un assemblage guidé par HMM.
+En outre, le package SPAdes comprend des outils supplémentaires pour le comptage efficace des k-mers et le filtrage des lectures basé sur les k-mers, la construction et la simplification de graphes d'assemblage, l'alignement séquence-graphe et l'amélioration du regroupement métagénomique.
+
+- [Manuel d'utilisation complet de SPAdes](https://ablab.github.io/spades/)
+
+- [Page de téléchargement de SPAdes](https://github.com/ablab/spades/releases/latest/)
+
+- [Dernière publication SPAdes](https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpbi.102)
+
+Version actuelle : voir le fichier `VERSION`.
+
+# Démarrage rapide
+
+Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spades/). Les informations ci-dessous sont fournies à titre indicatif uniquement et ne constituent pas un guide d'utilisation.
+
+- L'assembleur SPAdes prend en charge :
+  - Assemblage des données de séquençage de deuxième génération (Illumina ou IonTorrent) ;
+  - Lectures PacBio et Nanopore utilisées uniquement à titre de données supplémentaires.
+
+SPAdes permet d'assembler des génomes, des métagénomes, des transcriptomes, des génomes viraux, etc.
+
+Téléchargez les binaires SPAdes pour Linux ou macOS [ici](https://github.com/ablab/spades/releases/latest/). Vous pouvez également compiler SPAdes à partir du [code source](https://github.com/ablab/spades/releases/latest/) (nécessite g++ 9.0+, cmake 3.16+, zlib et libbz2). SPAdes requiert uniquement Python 3.8+.
+
+
+
+
+
+
+
+
+
+    
 
 
    
