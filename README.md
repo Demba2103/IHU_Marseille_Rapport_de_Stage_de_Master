@@ -94,7 +94,15 @@ Les rapports générés incluent notamment :
   * le contenu en GC ;
   * la présence d’adaptateurs ;
   * les séquences dupliquées ;
-  * la distribution des longueurs de lectures 
+  * la distribution des longueurs de lectures
+
+# Installation   
+* Conda
+```
+conda install bioconda::fastqc
+```
+# __Téléchargement__   
+__Lien__ : [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip)
 
 
 #  [__Correction des reads__](correction) :  
