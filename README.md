@@ -191,7 +191,8 @@ conda install bioconda::quast
 ```
 
   * [**Busco**](busco)
-
+  
+BUSCO (Benchmarking Universal Single-Copy Orthologs) fournit des mesures pour l'évaluation quantitative de l'assemblage du génome, de l'ensemble des gènes et de l'exhaustivité du transcriptome, basées sur des attentes évolutives concernant le contenu génique d'orthologues quasi universels à copie unique.
 # [Installation](installation)  
 
 ```
