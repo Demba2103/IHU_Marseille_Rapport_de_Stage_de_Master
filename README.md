@@ -156,6 +156,33 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
   - Lectures PacBio et Nanopore utilisées uniquement à titre de données supplémentaires.
 
 
+# [__Contrôle qualité assemblage et complétude__](cc)  
+  * [__Quast__](quast)
+QUAST (Quality ASsessment Tool) est un outil d'évaluation de la qualité d'assemblage. 
+QUAST évalue les assemblages en calculant diverses métriques, notamment le nombre de contigs, les rapports N50/75 et L50/75, la teneur en GC, le nombre de bases non appelées (N<sub>N</sub>) et les gènes prédits. Il prend en entrée un ou plusieurs objets Assembly et génère ensuite un rapport contenant les statistiques de tous les assemblages fournis.
+
+Le logiciel QUAST fonctionne avec ou sans génomes de référence. Cependant, il est beaucoup plus informatif si un génome de référence proche est fourni avec les assemblages. L'outil accepte plusieurs assemblages et se prête donc à la comparaison.   
+
+# [Installation](installation)  
+
+```
+conda install bioconda::quast
+```
+# Execution   
+
+```
+./quast.py test_data/contigs_1.fasta \
+           test_data/contigs_2.fasta \
+        -r test_data/reference.fasta.gz \
+        -g test_data/genes.txt \
+        -1 test_data/reads1.fastq.gz -2 test_data/reads2.fastq.gz \
+        -o quast_test_output
+```
+
+  * [Busco](busco)
+
+
+
 #  [__Annotation du génome__](annotation)  
 Prokka est outil rapide d'annotation de génome de bactérie, de virus et d'archée et génére des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF. Son dépôt github [ici](https://github.com/tseemann/prokka)   
 
