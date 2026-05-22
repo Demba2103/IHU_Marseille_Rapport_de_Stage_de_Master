@@ -39,7 +39,7 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour po
    * Trimmomatic v.0.39
 *  [__Assemblage__](assemblage)
    * spades
-* [Contrôle qualité assemblage et complétude](qualité assemblage)
+* [Contrôle qualité assemblage et complétude](cc)
    * Quast
    * Busco
 *  [__Annotation du génome__](annotation)
@@ -54,6 +54,7 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour po
    * roary
 *  [__Average Nucleotidique identity__](average)
    * FastANI
+   * ddh
 *  [__Typage des souches d'*Escherichia*__](typage)
    * mlst
 *  [__Construire d'arbre phylogénétique__](tree)
