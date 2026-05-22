@@ -114,10 +114,6 @@ Le package SPAdes comprend d'autres outils pour le comptage efficace des k-mers 
 
 - [Page de téléchargement de SPAdes](https://github.com/ablab/spades/releases/latest/)
 
-- [Dernière publication SPAdes](https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpbi.102)
-
-Version actuelle : voir le fichier `VERSION`.
-
 # Démarrage rapide
 
 Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spades/). Les informations ci-dessous sont fournies à titre indicatif uniquement et ne constituent pas un guide d'utilisation.
@@ -125,10 +121,6 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 - L'assembleur SPAdes prend en charge :
   - Assemblage des données de séquençage de deuxième génération (Illumina ou IonTorrent) ;
   - Lectures PacBio et Nanopore utilisées uniquement à titre de données supplémentaires.
-
-SPAdes permet d'assembler des génomes, des métagénomes, des transcriptomes, des génomes viraux, etc.
-
-Téléchargez les binaires SPAdes pour Linux ou macOS [ici](https://github.com/ablab/spades/releases/latest/). Vous pouvez également compiler SPAdes à partir du [code source](https://github.com/ablab/spades/releases/latest/) (nécessite g++ 9.0+, cmake 3.16+, zlib et libbz2). SPAdes requiert uniquement Python 3.8+.  
 
 
  
