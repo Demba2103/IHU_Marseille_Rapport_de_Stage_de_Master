@@ -111,10 +111,10 @@ Trimmomatic est un outil bioinformatique largement utilisé pour le prétraiteme
 Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche.  Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.            
 
 # [Installation](Installation )   
-L'option la plus simple consiste à télécharger le fichier ZIP contenant les données binaires et à l'extraire dans un emplacement approprié. Vous devrez modifier les exemples de lignes de commande ci-dessous pour qu'ils fassent référence au fichier JAR de Trimmomatic et à l'emplacement des fichiers FASTA de l'adaptateur.  
+Télécharger le fichier ZIP contenant les données binaires et l'extraire à l'emplacement des fichiers FASTA de l'adaptateur en utilsant **unzip** accompagné du nom du dossier zip de ligne. 
 
   # [Téléchargement](Téléchargement)
- [Trimmomatic v.O.39. zip](https://github.com/usadellab/Trimmomatic/releases)   
+ [Trimmomatic v.0.39. zip](https://github.com/usadellab/Trimmomatic/releases)   
 
 # [Execution](Execution)  
 
