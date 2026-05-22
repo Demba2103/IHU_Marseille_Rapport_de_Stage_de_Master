@@ -298,7 +298,7 @@ abricate --db vfdb S1_assembled/scaffolds.fasta > abricate_virulence.csv
 ```
 
 #  [__Pangenome__](pan)      
-Roary est un pipeline de séquençage pangénomique autonome et ultrarapide. Il prend en entrée des assemblages annotés au format GFF3 (produits par Prokka (Seemann, 2014)) et calcule le pangénome. Sur un PC de bureau standard, il peut analyser des jeux de données contenant des milliers d'échantillons, une tâche impossible à réaliser avec les méthodes existantes, sans compromettre la qualité des résultats.      
+Roary est un pipeline de séquençage pangénomique autonome et ultrarapide. Il prend en entrée des assemblages annotés au format GFF3 (produits par Prokka (Seemann, 2014) et calcule le pangénome. Sur un PC de bureau standard, il peut analyser des jeux de données contenant des milliers d'échantillons, une tâche impossible à réaliser avec les méthodes existantes, sans compromettre la qualité des résultats.      
 
 Tous les fichiers GFF3 créés par Prokka sont compatibles avec Roary et cette méthode est recommandée pour générer les fichiers d'entrée. Chaque fichier d'entrée doit comporter une étiquette de locus unique pour les identifiants de gènes (--locustag) afin de faciliter l'identification de leur origine (Andrew et al., 2015).  
 
