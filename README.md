@@ -158,7 +158,8 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 
 # [__Contrôle qualité assemblage et complétude__](cc)  
   * [__Quast__](quast)
-QUAST (Quality ASsessment Tool) est un outil d'évaluation de la qualité d'assemblage. 
+  
+QUAST (Quality ASsessment Tool) est un outil d'évaluation de la qualité d'assemblage.   
 QUAST évalue les assemblages en calculant diverses métriques, notamment le nombre de contigs, les rapports N50/75 et L50/75, la teneur en GC, le nombre de bases non appelées (N<sub>N</sub>) et les gènes prédits. Il prend en entrée un ou plusieurs objets Assembly et génère ensuite un rapport contenant les statistiques de tous les assemblages fournis.
 
 Le logiciel QUAST fonctionne avec ou sans génomes de référence. Cependant, il est beaucoup plus informatif si un génome de référence proche est fourni avec les assemblages. L'outil accepte plusieurs assemblages et se prête donc à la comparaison.   
@@ -179,7 +180,7 @@ conda install bioconda::quast
         -o quast_test_output
 ```
 
-  * [Busco](busco)
+  * [**Busco**](busco)
 
 
 
