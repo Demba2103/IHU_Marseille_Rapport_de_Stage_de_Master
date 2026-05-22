@@ -102,7 +102,7 @@ Les rapports générés incluent notamment :
 conda install bioconda::fastqc
 ```
 # [__Téléchargement__ ](téléchargement)  
-__Lien__ : [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip)
+__Lien__ : [**FASTQC**](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip)
 
 
 #  [__Correction des reads__](correction) :  
@@ -114,7 +114,7 @@ Trimmomatic prend en charge les données de séquençage à double extrémité e
 Télécharger le fichier ZIP contenant les données binaires et l'extraire à l'emplacement des fichiers FASTA de l'adaptateur en utilsant **unzip** accompagné du nom du dossier zip de ligne. 
 
   # [Téléchargement](Téléchargement)
- [Trimmomatic v.0.39. zip](https://github.com/usadellab/Trimmomatic/releases)   
+ [**Trimmomatic v.0.39. zip**](https://github.com/usadellab/Trimmomatic/releases)   
 
 # [Execution](Execution)  
 
@@ -126,7 +126,9 @@ output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz \
 ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
 ```
 
- *   [**Citations :**](citation)  
+ *   [**Citations :**](citation)
+
+   
 Bolger, AM, Lohse, M., & Usadel, B. (2014). Trimmomatic : un outil de nettoyage flexible pour les données de séquences Illumina. Bioinformatics , btu170. 
 
 #   [__Assemblage__](assemblage)
@@ -149,8 +151,7 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 
 
 #  [__Annotation du génome__](annotation)  
-Prokka est outil rapide d'annotation de génome de bactérie, de virus et d'archée et génére des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF.   
-Son dépôt github [ici](https://github.com/tseemann/prokka)   
+Prokka est outil rapide d'annotation de génome de bactérie, de virus et d'archée et génére des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF. Son dépôt github [ici](https://github.com/tseemann/prokka)   
 
 
   # [Installation](installation)      
@@ -260,7 +261,7 @@ abricate --db plasmidfinder S1_assembled/scaffolds.fasta
 abricate --db vfdb S1_assembled/scaffolds.fasta > abricate_virulence.csv
 ```
 
-#  [__pangenome__](pan)      
+#  [__Pangenome__](pan)      
 Roary est un pipeline de séquençage pangénomique autonome et ultrarapide. Il prend en entrée des assemblages annotés au format GFF3 (produits par Prokka (Seemann, 2014)) et calcule le pangénome. Sur un PC de bureau standard, il peut analyser des jeux de données contenant des milliers d'échantillons, une tâche impossible à réaliser avec les méthodes existantes, sans compromettre la qualité des résultats.      
 
 Tous les fichiers GFF3 créés par Prokka sont compatibles avec Roary et cette méthode est recommandée pour générer les fichiers d'entrée. Chaque fichier d'entrée doit comporter une étiquette de locus unique pour les identifiants de gènes (--locustag) afin de faciliter l'identification de leur origine (Andrew et al., 2015).  
@@ -307,7 +308,9 @@ Options: -p INT    number of threads [1]
          -h        this help message
 ````
 
-*   [**Citations :**](citation)   
+*   [**Citations :**](citation)
+
+
 Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, Matthew TG Holden, Maria Fookes, Daniel Falush, Jacqueline A. Keane, Julian Parkhill, « Roary : analyse rapide à grande échelle du pan-génome des procaryotes », Bioinformatics, 2015 ; 31(22) : 3691-3693 [doi : 10.1093/bioinformatics/btv421](https://academic.oup.com/bioinformatics/article/31/22/3691/240757)
 
 
