@@ -39,12 +39,17 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour po
    * Trimmomatic v.0.39
 *  [__Assemblage__](assemblage)
    * spades
+* [Contrôle qualité assemblage et complétude](qualité assemblage)
+   * Quast
+   * Busco
 *  [__Annotation du génome__](annotation)
    * prokka
 *  [__Recherche de gène(s) et/ou de plasmide(s) de virulence__](virulence)
    * Abricate
    * VFDB
    * Plasmidfinder
+*  [__Taxonomie__](taxonomie)
+   * Kraken2
 *  [__pangenome__](pan)
    * roary
 *  [__Average Nucleotidique identity__](average)
