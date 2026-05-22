@@ -149,7 +149,7 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 
 
 #  [__Annotation du génome__](annotation)  
-Prokka est outil rapide d'annotation de génome de bactérie,de virus et d'archée et de générer des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF.   
+Prokka est outil rapide d'annotation de génome de bactérie, de virus et d'archée et génére des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF.   
 Son dépôt github [ici](https://github.com/tseemann/prokka)   
 
 
@@ -157,6 +157,50 @@ Son dépôt github [ici](https://github.com/tseemann/prokka)
 
  *   [__Citation__](citation)   
 Torsten Seemann Prokka: rapid prokaryotic genome annotation Bioinformatics 2014 Jul 15;30(14):2068-9. DOI: [https://doi.org/10.1093/bioinformatics/btu153](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517)
+
+
+
+#  [__Recherche de gène(s) et/ou de plasmide(s) de virulence__](virulence)  
+ABRIcate est outil permettant un dépistage massif de contigs pour la recherche de gènes de résistance aux antimicrobiens ou de virulence uniquement.   
+
+Ce logiciel interroge de nommbreuses bases de données notamment NCBI, CARD, ARG-ANNOT, Resfinder, EcOH, PlasmidFinder, Ecoli_VF et VFDB.  
+Il prend comme fichier d'éntré les contigs et utilise une base de données de séquences d'ADN.  
+
+Ce logiciel ne détecte pas la résistance mutationnelle, seulement les gènes acquis.
+
+# [Installation](Installation)    
+
+```
+# Installation d'abricate
+conda install -c bioconda -c conda-forge abricate
+
+# Mise à jour des bases de données d'abricate
+abricate --setupdb
+
+# Affiche les bases de données d'abricate
+abricate --list
+```
+
+#### [__Commande__](commande)  
+```
+# Lance abricate avec la base de données par défaut (ncbi)
+abricate S1_assembled/scaffolds.fasta > abricate.csv
+
+# Lance abricate avec la base de données resfinder
+abricate --db resfinder S1_assembled/scaffolds.fasta > abricate.csv
+
+# Lancer abricate sur plusieurs fichiers fasta
+abricate --db resfinder *.fasta > resfinder.csv
+
+# Recherche la présence de plasmides
+abricate --db plasmidfinder S1_assembled/scaffolds.fasta
+
+# Lance abricate avec la base vfdb (virulence factors database)
+abricate --db vfdb S1_assembled/scaffolds.fasta > abricate_virulence.csv
+```
+
+#  [__pangenome__](pan)
+
 
 
 
