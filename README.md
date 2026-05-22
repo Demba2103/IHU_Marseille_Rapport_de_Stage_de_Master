@@ -96,12 +96,12 @@ Les rapports générés incluent notamment :
   * les séquences dupliquées ;
   * la distribution des longueurs de lectures
 
-# Installation   
+# [Installation](installation)    
 *  __Conda__
 ```
 conda install bioconda::fastqc
 ```
-# __Téléchargement__   
+# [__Téléchargement__ ](téléchargement)  
 __Lien__ : [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip)
 
 
@@ -110,13 +110,13 @@ Trimmomatic est un outil bioinformatique largement utilisé pour le prétraiteme
 
 Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche.  Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.            
 
-# Installation    
+# [Installation](Installation )   
 L'option la plus simple consiste à télécharger le fichier ZIP contenant les données binaires et à l'extraire dans un emplacement approprié. Vous devrez modifier les exemples de lignes de commande ci-dessous pour qu'ils fassent référence au fichier JAR de Trimmomatic et à l'emplacement des fichiers FASTA de l'adaptateur.  
 
-  # Téléchargement
+  # [Téléchargement](Téléchargement)
  [Trimmomatic v.O.39. zip](https://github.com/usadellab/Trimmomatic/releases)   
 
-# Execution   
+# [Execution](Execution)  
 
 ```
 java -jar trimmomatic-0.39.jar PE \
@@ -139,7 +139,7 @@ Le package SPAdes comprend d'autres outils pour le comptage efficace des k-mers 
 
 - [Page de téléchargement de SPAdes](https://github.com/ablab/spades/releases/latest/)
 
-# Démarrage rapide
+# [Démarrage rapide](démarrage)
 
 Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spades/). Les informations ci-dessous sont fournies à titre indicatif uniquement et ne constituent pas un guide d'utilisation.
 
