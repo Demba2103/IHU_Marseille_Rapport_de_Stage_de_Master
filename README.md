@@ -39,7 +39,7 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour po
    * Trimmomatic v.0.39
 *  [__Assemblage__](assemblage)
    * spades
-* [Contrôle qualité assemblage et complétude](cc)
+* [__Contrôle qualité assemblage et complétude__](cc)
    * Quast
    * Busco
 *  [__Annotation du génome__](annotation)
