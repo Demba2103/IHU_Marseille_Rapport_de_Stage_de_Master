@@ -147,8 +147,10 @@ Bolger, AM, Lohse, M., & Usadel, B. (2014). Trimmomatic : un outil de nettoyage 
 
 #   [__Assemblage__](assemblage)
    
-🧬SPAdes : est une boîte à outils bioinformatique polyvalente dédiée à l’assemblage et à l’analyse des données de séquençage.
-Initialement développé pour les données Illumina, SPAdes prend également en charge les données Ion Torrent ainsi que les approches hybrides intégrant des lectures longues issues de PacBio ou Oxford Nanopore Technologies (ONT).
+🧬SPAdes est une boîte à outils bioinformatique polyvalente dédiée à l’assemblage et à l’analyse des données de séquençage.  
+
+Initialement développé pour les données Illumina, SPAdes prend également en charge les données Ion Torrent ainsi que les approches hybrides intégrant des lectures longues issues de PacBio ou Oxford Nanopore Technologies (ONT).  
+
 Le package SPAdes comprend d'autres outils pour le comptage efficace des k-mers et le filtrage des lectures basé sur les k-mers, la construction et la simplification de graphes d'assemblage, l'alignement séquence-graphe et l'amélioration du regroupement métagénomique.
 
 - [Manuel d'utilisation complet de SPAdes](https://ablab.github.io/spades/)
