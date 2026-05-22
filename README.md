@@ -181,7 +181,7 @@ abricate --setupdb
 abricate --list
 ```
 
-#### [__Commande__](commande)  
+# [__Commande__](commande)  
 ```
 # Lance abricate avec la base de données par défaut (ncbi)
 abricate S1_assembled/scaffolds.fasta > abricate.csv
@@ -199,7 +199,55 @@ abricate --db plasmidfinder S1_assembled/scaffolds.fasta
 abricate --db vfdb S1_assembled/scaffolds.fasta > abricate_virulence.csv
 ```
 
-#  [__pangenome__](pan)
+#  [__pangenome__](pan)      
+Roary est un pipeline de séquençage pangénomique autonome et ultrarapide. Il prend en entrée des assemblages annotés au format GFF3 (produits par Prokka (Seemann, 2014)) et calcule le pangénome. Sur un PC de bureau standard, il peut analyser des jeux de données contenant des milliers d'échantillons, une tâche impossible à réaliser avec les méthodes existantes, sans compromettre la qualité des résultats.      
+
+Tous les fichiers GFF3 créés par Prokka sont compatibles avec Roary et cette méthode est recommandée pour générer les fichiers d'entrée. Chaque fichier d'entrée doit comporter une étiquette de locus unique pour les identifiants de gènes (--locustag) afin de faciliter l'identification de leur origine (Andrew et al., 2015).  
+
+# [Installation](installation)  
+
+```
+conda install bioconda::roary
+```
+
+# [Execution](execution)  
+
+```
+roary -e --mafft -p 8 –f output_dir *.gff
+```
+
+  ```
+Usage:   roary [options] *.gff
+
+Options: -p INT    number of threads [1]
+         -o STR    clusters output filename [clustered_proteins]
+         -f STR    output directory [.]
+         -e        create a multiFASTA alignment of core genes using PRANK
+         -n        fast core gene alignment with MAFFT, use with -e
+         -i        minimum percentage identity for blastp [95]
+         -cd FLOAT percentage of isolates a gene must be in to be core [99]
+         -qc       generate QC report with Kraken
+         -k STR    path to Kraken database for QC, use with -qc
+         -a        check dependancies and print versions
+         -b STR    blastp executable [blastp]
+         -c STR    mcl executable [mcl]
+         -d STR    mcxdeblast executable [mcxdeblast]
+         -g INT    maximum number of clusters [50000]
+         -m STR    makeblastdb executable [makeblastdb]
+         -r        create R plots, requires R and ggplot2
+         -s        dont split paralogs
+         -t INT    translation table [11]
+         -ap       allow paralogs in core alignment
+         -z        dont delete intermediate files
+         -v        verbose output to STDOUT
+         -w        print version and exit
+         -y        add gene inference information to spreadsheet, doesnt work with -e
+         -iv STR   Change the MCL inflation value [1.5]
+         -h        this help message
+````
+
+*   [**Citations :**](citation)   
+Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, Matthew TG Holden, Maria Fookes, Daniel Falush, Jacqueline A. Keane, Julian Parkhill, « Roary : analyse rapide à grande échelle du pan-génome des procaryotes », Bioinformatics, 2015 ; 31(22) : 3691-3693 [doi : 10.1093/bioinformatics/btv421](https://academic.oup.com/bioinformatics/article/31/22/3691/240757)
 
 
 
