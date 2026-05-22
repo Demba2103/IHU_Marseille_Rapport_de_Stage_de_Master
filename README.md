@@ -344,7 +344,36 @@ $ ./fastANI -q [QUERY_GENOME] --rl [REFERENCE_LIST] -o [OUTPUT_FILE]
 
 Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. L’analyse ANI à haut débit de 90 000 génomes procaryotes révèle des limites d’espèces claires. 2017 ; [doi : 10.1101/225342](https://doi.org/10.1101/225342)
 
-Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)
+Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)  
+
+
+#  [__Typage des souches d'*Escherichia*__](typage)  
+Le typage par séquençage MLST (MultiLocus Sequencing Typing) est la technique de référence pour discriminer différentes souches. Cette méthode est basée sur le séquençage de « gènes de ménage » (house-keeping genes) codant pour des protéines essentielles de la bactérie.  
+
+
+
+  # [Installation](installation)    
+
+  ```
+conda install bioconda::mlst
+```
+
+# [Execution](execution)    
+
+
+```
+# Lancer l'analyse de la mlst
+mlst contigs.fasta > mlst.csv
+
+# Lancer l'analyse MLST sur plusieurs fichiers fasta
+mlst *.fasta > mlst.csv
+```
+
+*   [**Citations :**](citation)
+
+Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. L’analyse ANI à haut débit de 90 000 génomes procaryotes révèle des limites d’espèces claires. 2017 ; [doi : 10.1101/225342](https://doi.org/10.1101/225342)
+
+Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)  
 
 
 
