@@ -311,6 +311,26 @@ Options: -p INT    number of threads [1]
 Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, Matthew TG Holden, Maria Fookes, Daniel Falush, Jacqueline A. Keane, Julian Parkhill, « Roary : analyse rapide à grande échelle du pan-génome des procaryotes », Bioinformatics, 2015 ; 31(22) : 3691-3693 [doi : 10.1093/bioinformatics/btv421](https://academic.oup.com/bioinformatics/article/31/22/3691/240757)
 
 
+#  [__Average Nucleotidique identity__](average)   
+FastANI est développé pour le calcul rapide et sans alignement de l'identité nucléotidique moyenne (ANI) du génome entier.
+
+
+
+# [Installation](installation)    
+
+
+  ```
+conda install bioconda::fastani
+```
+
+# [Execution](execution)    
+
+
+```
+$ ./fastANI -q [QUERY_GENOME] -r [REFERENCE_GENOME] -o [OUTPUT_FILE]
+```
+
+
 
 
  
