@@ -312,12 +312,15 @@ Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, M
 
 
 #  [__Average Nucleotidique identity__](average)   
-FastANI est développé pour le calcul rapide et sans alignement de l'identité nucléotidique moyenne (ANI) du génome entier.
+FastANI est développé pour le calcul rapide et sans alignement de l'identité nucléotidique moyenne (ANI) du génome entier.  
+L'ANI est définie comme l'identité nucléotidique moyenne des paires de gènes orthologues partagées entre deux génomes microbiens.  
+  
+FastANI prend en charge la comparaison par paires d'assemblages de génomes complets et d'ébauches. Sa procédure sous-jacente suit un flux de travail similaire à celui décrit par Goris et al. (2007) .   
+Cependant, elle évite les alignements de séquences coûteux et utilise Mashmap comme moteur de mappage de séquences basé sur MinHash pour calculer les correspondances orthologues et les estimations d'identité d'alignement.
 
 
 
 # [Installation](installation)    
-
 
   ```
 conda install bioconda::fastani
@@ -334,6 +337,15 @@ Calcul entre un génome requête et plusieurs génomes de référence
 ```
 $ ./fastANI -q [QUERY_GENOME] --rl [REFERENCE_LIST] -o [OUTPUT_FILE]
 ```
+
+
+
+*   [**Citations :**](citation)
+
+Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. L’analyse ANI à haut débit de 90 000 génomes procaryotes révèle des limites d’espèces claires. 2017 ; [doi : 10.1101/225342](https://doi.org/10.1101/225342)
+
+Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)
+
 
 
 
