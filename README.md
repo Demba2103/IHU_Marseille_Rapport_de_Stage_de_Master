@@ -325,9 +325,14 @@ conda install bioconda::fastani
 
 # [Execution](execution)    
 
-
+Calcul entre un génome requête et un génome de référence 
 ```
 $ ./fastANI -q [QUERY_GENOME] -r [REFERENCE_GENOME] -o [OUTPUT_FILE]
+```
+
+Calcul entre un génome requête et plusieurs génomes de référence 
+```
+$ ./fastANI -q [QUERY_GENOME] --rl [REFERENCE_LIST] -o [OUTPUT_FILE]
 ```
 
 
