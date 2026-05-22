@@ -376,9 +376,8 @@ mlst *.fasta > mlst.csv
 
 *   [**Citations :**](citation)
 
-Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. L’analyse ANI à haut débit de 90 000 génomes procaryotes révèle des limites d’espèces claires. 2017 ; [doi : 10.1101/225342](https://doi.org/10.1101/225342)
-
-Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)  
+Sadio O. Formation CDC Africa- Pasteur, 2025. [github Ousmane Sadio](https://github.com/Osadio95/AfricaCDC_Dakar2025)
+  
 
 
 
