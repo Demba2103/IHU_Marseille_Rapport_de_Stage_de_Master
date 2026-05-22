@@ -28,7 +28,7 @@ Cette étude portant sur le microbiote des enfants atteints de malnutrition aigu
 #### [📌Objecif : ](objectif)   
 Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour pouvoir caractériser son génome grâce à l'analyse bioinformatique.  
 
- #### [📍Echantillons : ](echanti)
+ #### [📍Echantillons  ](echanti)
  Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.      
 
  Sur cette repository, nous avons chargé l'ensemble des fichiers et scripts nécessaires pour analyser ces données.
