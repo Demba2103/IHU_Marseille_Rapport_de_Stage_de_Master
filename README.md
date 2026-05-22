@@ -154,7 +154,8 @@ Son dépôt github [ici](https://github.com/tseemann/prokka)
 
 
 
-* __Citation__   
+
+ *   [__Citation__](citation)   
 Torsten Seemann Prokka: rapid prokaryotic genome annotation Bioinformatics 2014 Jul 15;30(14):2068-9. DOI: [https://doi.org/10.1093/bioinformatics/btu153](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517)
 
 
