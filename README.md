@@ -97,7 +97,7 @@ Les rapports générés incluent notamment :
   * la distribution des longueurs de lectures
 
 # Installation   
-* Conda
+*  __Conda__
 ```
 conda install bioconda::fastqc
 ```
@@ -106,10 +106,27 @@ __Lien__ : [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fa
 
 
 #  [__Correction des reads__](correction) :  
-Trimmomatic est un outil bioinformatique largement utilisé pour le prétraitement des données de séquençage nouvelle génération (NGS) Illumina. Il élimine les bases de faible qualité, les adaptateurs de séquençage et les régions indésirables des fichiers FASTQ. Il permet aux chercheurs d'améliorer la précision et la fiabilité de l'analyse génomique avant de passer aux étapes suivantes : alignement, assemblage, analyse RNA-Seq et détection de variants.
-Conçu pour offrir flexibilité et performance, Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche. Le logiciel propose des méthodes d'élagage avancées telles que le filtrage de qualité par fenêtre glissante, le découpage des adaptateurs, l'élagage des bases en amont et en aval, et le filtrage de longueur minimale. Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.  
+Trimmomatic est un outil bioinformatique largement utilisé pour le prétraitement des données de séquençage nouvelle génération (NGS) Illumina. Il élimine les bases de faible qualité, les adaptateurs de séquençage et les régions indésirables des fichiers FASTQ.   
 
-  ### __Citations__ :  
+Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche.  Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.            
+
+# Installation    
+L'option la plus simple consiste à télécharger le fichier ZIP contenant les données binaires et à l'extraire dans un emplacement approprié. Vous devrez modifier les exemples de lignes de commande ci-dessous pour qu'ils fassent référence au fichier JAR de Trimmomatic et à l'emplacement des fichiers FASTA de l'adaptateur.  
+
+  # Téléchargement
+ [Trimmomatic v.O.39. zip](https://github.com/usadellab/Trimmomatic/releases)   
+
+# Execution   
+
+```
+java -jar trimmomatic-0.39.jar PE \
+input_forward.fq.gz input_reverse.fq.gz \
+output_forward_paired.fq.gz output_forward_unpaired.fq.gz \
+output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz \
+ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+```
+
+ *   [**Citations :**](citation)  
 Bolger, AM, Lohse, M., & Usadel, B. (2014). Trimmomatic : un outil de nettoyage flexible pour les données de séquences Illumina. Bioinformatics , btu170. 
 
 #   [__Assemblage__](assemblage)
@@ -129,6 +146,17 @@ Le manuel d'utilisation complet est disponible [ici](https://ablab.github.io/spa
 - L'assembleur SPAdes prend en charge :
   - Assemblage des données de séquençage de deuxième génération (Illumina ou IonTorrent) ;
   - Lectures PacBio et Nanopore utilisées uniquement à titre de données supplémentaires.
+
+
+#  [__Annotation du génome__](annotation)  
+Prokka est outil rapide d'annotation de génome de bactérie,de virus et d'archée et de générer des fichiers de sortie standardisés aux formats GenBank, EMBL et GFF.   
+Son dépôt github [ici](https://github.com/tseemann/prokka)   
+
+
+
+* __Citation__   
+Torsten Seemann Prokka: rapid prokaryotic genome annotation Bioinformatics 2014 Jul 15;30(14):2068-9. DOI: [https://doi.org/10.1093/bioinformatics/btu153](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517)
+
 
 
  
