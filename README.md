@@ -37,7 +37,7 @@ Elle est souvent confondue à *E. coli* du fait de sa promiximité génomique ne
 
 De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de résistance aux antibiotiques notamment de la famille des bétalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse.    
 
-De plus, des cas de septiémies chez l'homme ont été récemment décrites d'où la nécessité d'une surveillance accrue.
+De plus, des cas de septiémies ont été récemment décrites chez l'homme d'où la nécessité d'une surveillance accrue.
 
 #### [📌Objecif : ](objectif)   
 Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour pouvoir caractériser son génome grâce à l'analyse bioinformatique.  
