@@ -29,7 +29,7 @@ Culture bacterienne                |  Extraction ADN
 
 
 ## [🔵Description : ](description)    
-Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de caractériser le génome d'*Escherichia marmotae*  grâce au séqençage de son génome entier (le whole génome sequencing, WGS).    
+Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de caractériser le génome entier  d'*Escherichia marmotae*  grâce au séqençage NGS le whole génome sequencing (WGS).    
 
 Cette bactérie Gram négative de la famille des *Enterobacteriaceae* a été décrite commme une nouvelle espèces en 2015 suite à de son isolement de féces de marmotte d'ou son nom *Escherichia marmotae*.    
 
