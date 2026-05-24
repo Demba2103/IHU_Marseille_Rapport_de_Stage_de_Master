@@ -38,12 +38,13 @@ Elle est souvent confondue à *E. coli* du fait de sa promiximité génomique ne
 De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de résistance aux antibiotiques notamment de la famille des bétalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse. Des cas de septiémies ont été décrites en 2021 chez l'homme  d'où la nécessité d'une surveillance accrue.
 
 #### [📌Objecif : ](objectif)   
-Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une culture sélective sur Mac Conkey (MC)et de  caractériser son génome grâce à l'analyse bioinformatique.  
+Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une culture sélective sur Mac Conkey (MC) et de  caractériser son génome grâce à l'analyse bioinformatique.  
 
  #### [📍Echantillons  ](echanti)
  Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.      
 
- Sur cette repository, nous avons chargé l'ensemble des fichiers et scripts nécessaires pour analyser ces données.
+ Sur cette repository, nous avons chargé l'ensemble des fichiers et scripts nécessaires pour analyser ces données.  
+ Les reads sont téléchargeables sur zenodo en cliquant [**ici**]()
 ## [__TABLE DES MATIERES__](Table)   
 *  [__Contrôle qualité__](contrôle)
    * fastqc  
