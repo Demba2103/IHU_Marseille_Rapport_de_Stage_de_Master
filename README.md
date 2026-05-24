@@ -29,18 +29,16 @@ Culture bacterienne                |  Extraction ADN
 
 
 ## [🔵Description : ](description)    
-Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de caractériser le génome d'*Escherichia marmotae*  grâce au séqençage du génome entier(le whole génome sequencing, WGS) et à une culture sélective sur Mac Conkey (MC).    
+Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de caractériser le génome d'*Escherichia marmotae*  grâce au séqençage du génome entier(le whole génome sequencing, WGS).    
 
 Cette bactérie Gram négative de la famille des *Enterobacteriaceae* a été décrite commme une nouvelle espèces en 2015 suite à de son isolement de féces de marmotte d'ou son nom *Escherichia marmotae*.    
 
 Elle est souvent confondue à *E. coli* du fait de sa promiximité génomique ne présentant que 10% de différence sur l'ensemble de leur génome.      
 
-De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de résistance aux antibiotiques notamment de la famille des bétalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse.    
-
-De plus, des cas de septiémies ont été récemment décrites chez l'homme d'où la nécessité d'une surveillance accrue.
+De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de résistance aux antibiotiques notamment de la famille des bétalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse. Des cas de septiémies ont été décrites en 2021 chez l'homme  d'où la nécessité d'une surveillance accrue.
 
 #### [📌Objecif : ](objectif)   
-Ainsi l'objectif de cette étude est d'isoler cette bactérie en culture pour pouvoir caractériser son génome grâce à l'analyse bioinformatique.  
+Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une culture sélective sur Mac Conkey (MC)et de  caractériser son génome grâce à l'analyse bioinformatique.  
 
  #### [📍Echantillons  ](echanti)
  Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.      
