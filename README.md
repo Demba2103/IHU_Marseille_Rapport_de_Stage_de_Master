@@ -2,7 +2,7 @@
     
    <p align="center">
 
-<img src="https://img.shields.io/badge/STAGE%20DE%20MÉMOIRE%20DE%20MASTER%201-ANALYSE%20BIOINFORMATIQUE%20DES%20DONNÉES%20DE%20SÉQUENÇAGE%20SHOTGUN-8A2BE2?style=for-the-badge&logo=github&logoColor=white" height="200"/>
+<img src="https://img.shields.io/badge/STAGE%20DE%20MÉMOIRE%20DE%20MASTER%201-ANALYSE%20BIOINFORMATIQUE%20DES%20DONNÉES%20DE%20SÉQUENÇAGE%20WHOLE%20GENOME%20SEQUENCING%20(WGS)-8A2BE2?style=for-the-badge&logo=github&logoColor=white" height="200"/>
 
 </p>  
 
