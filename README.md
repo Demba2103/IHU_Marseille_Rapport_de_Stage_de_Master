@@ -75,6 +75,14 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une cult
    * MEGA v.11
  
 
+  # Workflow  
+
+
+  <p align="center">
+
+<img width="1692" height="930" alt="Image" src="https://github.com/user-attachments/assets/bb074a29-6876-420c-976f-7e7f52d38d43" />
+
+</p>  
 
   
 **1) Création des environnements conda**
