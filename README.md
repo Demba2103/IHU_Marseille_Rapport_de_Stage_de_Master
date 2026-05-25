@@ -80,7 +80,7 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une cult
 
   <p align="center">
 
-<img width="1692" height="930" alt="Image" src="https://github.com/user-attachments/assets/bb074a29-6876-420c-976f-7e7f52d38d43" />
+<img width="1548" height="930" alt="Image" src="https://github.com/user-attachments/assets/a7b0de3b-2da8-4933-9b47-666fec830f3f" />
 
 </p>  
 
