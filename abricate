@@ -1,0 +1,28 @@
+
+
+#!/bin/bash
+
+for s in QA5483_S6_L001 QA5484_S7_L001 QA5485_S8_L001 QA5486_S9_L001 QA5487_S10_L001 QA5488_S11_L001
+do
+    abricate spades_assemblies/$s/contigs.fasta \
+    > abricate_${s}.csv
+done
+
+for s in QA5483_S6_L001 QA5484_S7_L001 QA5485_S8_L001 QA5486_S9_L001 QA5487_S10_L001 QA5488_S11_L001
+do
+    abricate --db resfinder spades_assemblies/$s/contigs.fasta \
+    > resfinder_${s}.csv
+done
+
+for s in QA5483_S6_L001 QA5484_S7_L001 QA5485_S8_L001 QA5486_S9_L001 QA5487_S10_L001 QA5488_S11_L001
+do
+    abricate --db plasmidfinder spades_assemblies/$s/contigs.fasta \
+    > plasmidfinder_${s}.csv
+done
+
+for s in QA5483_S6_L001 QA5484_S7_L001 QA5485_S8_L001 QA5486_S9_L001 QA5487_S10_L001 QA5488_S11_L001
+do
+    abricate --db vfdb spades_assemblies/$s/contigs.fasta \
+    > vfdb_${s}.csv
+done
+

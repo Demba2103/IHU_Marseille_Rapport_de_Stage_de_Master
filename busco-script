@@ -1,0 +1,20 @@
+#!/bin/bash
+
+samples=(
+QA5483_S6_L001
+QA5484_S7_L001
+QA5485_S8_L001
+QA5486_S9_L001
+QA5487_S10_L001
+QA5488_S11_L001
+)
+
+for s in "${samples[@]}"
+do
+    busco \
+        -i ${s}/contigs.fasta \
+        -o busco_${s} \
+        -l bacteria \
+        -m genome \
+        -c 8
+done 
