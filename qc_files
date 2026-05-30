@@ -1,4 +1,0 @@
-#!/bin/bash
-
-mkdir files_qc
-fastqc * .fastq.gz -o files_qc
