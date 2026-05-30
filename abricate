@@ -1,9 +1,0 @@
-
-
-#!/bin/bash
-
-for s in SRR10058833 SRR10058838 SRR10058842
-do
-    abricate --db resfinder /home/demba_ba/WGS/files/spades_assemblies/$s/contigs.fasta \
-    > ${s}.tsv
-done
