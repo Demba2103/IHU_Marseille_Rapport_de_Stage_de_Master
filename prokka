@@ -1,0 +1,32 @@
+
+
+#!/bin/bash
+
+CONTIGS_DIR="."
+OUTPUT_DIR="prokka_result"
+
+mkdir -p $OUTPUT_DIR
+
+samples=(
+QA5483_S6_L001
+QA5484_S7_L001
+QA5485_S8_L001
+QA5486_S9_L001
+QA5487_S10_L001
+QA5488_S11_L001
+)
+
+for s in "${samples[@]}"
+do
+    echo "Annotation Prokka pour $s ..."
+
+    prokka \
+        ${CONTIGS_DIR}/${s}/contigs.fasta \
+        --kingdom Bacteria \
+        --outdir ${OUTPUT_DIR}/${s} \
+        --prefix ${s} \
+        --cpus 8
+
+done
+
+echo "Annotation terminée ✔"ls

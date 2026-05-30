@@ -1,0 +1,39 @@
+#!/bin/bash
+
+THREADS=4
+OUT_DIR="fastp_result"
+
+mkdir -p "$OUT_DIR"
+
+SAMPLES=(
+QA5483_S6_L001
+QA5484_S7_L001
+QA5485_S8_L001
+QA5486_S9_L001
+QA5487_S10_L001
+QA5488_S11_L001
+)
+
+for i in "${SAMPLES[@]}"
+do
+
+  echo "start trimming $i"
+
+  fastp \
+    -w $THREADS \
+    -i ${i}_R1_001.fastq.gz \
+    -I ${i}_R2_001.fastq.gz \
+    -o ${OUT_DIR}/${i}_R1_001.clean.fastq.gz \
+    -O ${OUT_DIR}/${i}_R2_001.clean.fastq.gz \
+    --detect_adapter_for_pe \
+    --trim_front1 10 \
+    --trim_front2 10 \
+    --trim_tail1 26 \
+    --trim_tail2 26 \
+    --cut_window_size 4 \
+    --cut_mean_quality 28 \
+    --length_required 36 \
+    --html ${OUT_DIR}/${i}.html \
+    --json ${OUT_DIR}/${i}.json
+
+done

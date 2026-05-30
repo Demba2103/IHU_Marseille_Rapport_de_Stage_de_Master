@@ -1,0 +1,29 @@
+#!/bin/bash
+
+DB="/Users/nfs/user01/kraken2_db/minikraken2_v2_8GB_201904_UPDATE"
+OUTDIR="kraken2_results"
+
+mkdir -p $OUTDIR
+
+samples=(
+QA5483_S6_L001
+QA5484_S7_L001
+QA5485_S8_L001
+QA5486_S9_L001
+QA5487_S10_L001
+QA5488_S11_L001
+)
+
+for s in "${samples[@]}"
+do
+    echo "Running Kraken2 on $s ..."
+
+    kraken2 \
+        --db $DB \
+        --threads 8 \
+        --report $OUTDIR/${s}.report.txt \
+        --output $OUTDIR/${s}.kraken.txt \
+        ${s}/contigs.fasta
+
+done
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "sample,scheme,ST" > mlst_results.csv
+
+for s in QA5483_S6_L001 QA5484_S7_L001 QA5485_S8_L001 QA5486_S9_L001 QA5487_S10_L001 QA5488_S11_L001
+do
+    mlst ${s}/contigs.fasta >> mlst_results.csv
+done

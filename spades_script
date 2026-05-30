@@ -1,0 +1,31 @@
+#!/bin/bash
+
+INPUT_DIR="fastp_result"
+OUTPUT_DIR="spades_assemblies"
+THREADS=8
+
+mkdir -p $OUTPUT_DIR
+
+samples=(
+QA5483_S6_L001
+QA5484_S7_L001
+QA5485_S8_L001
+QA5486_S9_L001
+QA5487_S10_L001
+QA5488_S11_L001
+)
+
+for s in "${samples[@]}"
+do
+    echo "Assemblage SPAdes pour $s ..."
+
+    spades.py \
+    -1 ${INPUT_DIR}/${s}_R1_001.clean.fastq.gz \
+    -2 ${INPUT_DIR}/${s}_R2_001.clean.fastq.gz \
+    -o ${OUTPUT_DIR}/${s} \
+    -t $THREADS \
+    -m 32
+
+done
+
+echo "Assemblage terminé ✔"

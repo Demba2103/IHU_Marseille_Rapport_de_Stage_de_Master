@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+roary -e -n -v -p 8 QA5483_S6_L001/*.gff QA5484_S7_L001/*.gff QA5485_S8_L001/*.gff QA5486_S9_L001/*.gff QA5487_S10_L001/*.gff QA5488_S11_L001/*.gff
