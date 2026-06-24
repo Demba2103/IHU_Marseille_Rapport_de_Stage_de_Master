@@ -39,7 +39,7 @@ Plusieurs études menées sur tous les continents ont systématiquement démontr
 Cela suppose que les enfants atteints de malnutrition aiguë sévère pourraient être un réservoir de clones multirésistants d’E. coli d’où la nécessité d’une surveillance accrue et de développement d’options thérapeutiques plus efficaces pour ces enfants, qui sont les plus vulnérables.  
 
 #### [📌Objecif : ](objectif)   
-Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une culture sélective sur Mac Conkey (MC) et de  caractériser son génome grâce à l'analyse bioinformatique.  
+Ainsi l'objectif de cette étude est d'd’investiguer le portage fécal de clones d’Escherichia coli porteurs de gène de β-lactamases à spectre étendu (BLSE) chez des enfants atteints de malnutrition aiguë sévère.
 
  #### [📍Echantillons  ](echanti)
  Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*
