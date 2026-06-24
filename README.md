@@ -31,9 +31,9 @@ Culture bacterienne                |  Extraction ADN
 ## [🔵Description : ](description)    
 Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) avait pour but d'isoler et de caractériser des clones d'*Escherichia coli* multirésistants (le whole génome sequencing, WGS) grâce au séqençage de  leur génome entier.     
 
-Dans un contexte de malnutrition aigûe sévère des chez des enfants de moins de 5 ans , l'OMS préconise l'utilisation d'antibiotique pour le traitement de ces enfants malnutris.    
+Dans un contexte de malnutrition aigûe sévère des chez des enfants de moins de 5 ans , l'OMS préconise l'utilisation systématique d'antibiotique pour le traitement de ces enfants malnutris.    
 
-Par contre, celà contribut à  une sélection et à des infections dues par des bactéries multirésistantes. 
+Par contre, celà contribue à  un accroisement des risques de sélection et développer des infections dues par des bactéries multirésistantes. 
 Plusieurs études menées sur tous les continents ont systématiquement démontré que les E. coli porteuses du gène CTX-M-15 figurent parmi les entérobactéries productrices de BLSE les plus répandues.   
 
 Cela suppose que les enfants atteints de malnutrition aiguë sévère pourraient être un réservoir de clones multirésistants d’E. coli d’où la nécessité d’une surveillance accrue et de développement d’options thérapeutiques plus efficaces pour ces enfants, qui sont les plus vulnérables.  
