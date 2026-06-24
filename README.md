@@ -50,7 +50,7 @@ Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une cult
 *  [__Contrôle qualité__](contrôle)
    * fastqc  
 *  [__Correction des reads__](correction)
-   * Trimmomatic v.0.39
+   * fastp v.1.3.3
 *  [__Assemblage__](assemblage)
    * spades
 * [__Contrôle qualité assemblage et complétude__](cc)
@@ -134,30 +134,27 @@ __Lien__ : [**FASTQC**](https://www.bioinformatics.babraham.ac.uk/projects/fastq
 
 
 #  [__Correction des reads__](correction) :  
-Trimmomatic est un outil bioinformatique largement utilisé pour le prétraitement des données de séquençage nouvelle génération (NGS) Illumina. Il élimine les bases de faible qualité, les adaptateurs de séquençage et les régions indésirables des fichiers FASTQ.   
-
-Trimmomatic prend en charge les données de séquençage à double extrémité et à extrémité unique, ce qui le rend adapté à un large éventail de projets de recherche.  Ces fonctionnalités contribuent à garantir des séquences de lecture plus nettes et de meilleurs résultats analytiques.            
+Un outil conçu pour fournir un prétraitement et un contrôle qualité ultrarapides et tout-en-un pour les données FastQ.  
+  
+Cet outil est conçu pour le traitement de lectures courtes (par exemple Illumina NovaSeq, MGI). Si vous recherchez des outils pour traiter des lectures longues (par exemple Nanopore, PacBio, Cyclone)      
 
 # [Installation](Installation )   
-Télécharger le fichier ZIP contenant les données binaires et l'extraire à l'emplacement des fichiers FASTA de l'adaptateur en utilsant **unzip** accompagné du nom du dossier zip de ligne. 
 
-  # [Téléchargement](Téléchargement)
- [**Trimmomatic v.0.39. zip**](https://github.com/usadellab/Trimmomatic/releases)   
+ ```
+conda install -c bioconda fastp
+```
 
 # [Execution](Execution)  
 
 ```
-java -jar trimmomatic-0.39.jar PE \
-input_forward.fq.gz input_reverse.fq.gz \
-output_forward_paired.fq.gz output_forward_unpaired.fq.gz \
-output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz \
-ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+fastp -i in.R1.fq.gz -I in.R2.fq.gz -o out.R1.fq.gz -O out.R2.fq.gz
 ```
 
- *   [**Citations :**](citation)
+Par défaut, le rapport HTML est enregistré dans fastp.html(peut être spécifié avec -hl'option), et le rapport JSON est enregistré dans fastp.json(peut être spécifié avec -jl'option).  
 
-   
-Bolger, AM, Lohse, M., & Usadel, B. (2014). Trimmomatic : un outil de nettoyage flexible pour les données de séquences Illumina. Bioinformatics , btu170. 
+ *   [**Citations :**](citation)
+ 
+Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics, 34(17), i884–i890. https://doi.org/10.1093/bioinformatics/bty560. 
 
 #   [__Assemblage__](assemblage)
    
