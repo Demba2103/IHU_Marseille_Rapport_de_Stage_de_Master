@@ -80,8 +80,7 @@ Ainsi l'objectif de cette étude est d'd’investiguer le portage fécal de clon
 
 
   <p align="center">
-
-<img width="1548" height="930" alt="Image" src="https://github.com/user-attachments/assets/a7b0de3b-2da8-4933-9b47-666fec830f3f" />
+<img width="1672" height="941" alt="Image" src="https://github.com/user-attachments/assets/dbbe6036-02ec-46c8-873b-cb50e852d138" />
 
 </p>  
 
