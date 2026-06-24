@@ -463,16 +463,7 @@ Logiciel d'analyse phylogénétique doté d'une interface graphique. Il permet l
 
   
     
- [**Interactive Tree Of Life**](https://itol.embl.de/) est un outil en ligne permettant l'affichage, l'annotation et la gestion d'arbres phylogénétiques et autres.
 
-Gérez et visualisez vos arbres directement dans le navigateur, et annotez-les avec différents ensembles de données.      
-  
-
-<p align="center">
-  <img src="https://i.ytimg.com/vi/hwDcfOU58OA/sddefault.jpg"
-       alt="Image"
-       width="500">
-</p>
 
 
 
