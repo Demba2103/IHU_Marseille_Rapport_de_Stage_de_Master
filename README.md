@@ -29,19 +29,17 @@ Culture bacterienne                |  Extraction ADN
 
 
 ## [🔵Description : ](description)    
-Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) a pour but de caractériser le génome entier  d'*Escherichia marmotae* (le whole génome sequencing, WGS) grâce au séqençage de nouvelle génération (NGS) .    
-
-Cette bactérie Gram négative de la famille des *Enterobacteriaceae* a été décrite commme une nouvelle espèces en 2015 suite à de son isolement de féces de marmotte d'ou son nom *Escherichia marmotae*.    
-
-Elle est souvent confondue à *E. coli* du fait de sa promiximité génomique ne présentant que 10% de différence sur l'ensemble de leur génome.      
-
-De plus, des études récentes portant notamment sur la résistance aux antibiotiques et la colonisation du digestif ont montré la présence de génes de résistance aux antibiotiques notamment de la famille des bétalactamines mais également une capacité à coloniser le tube de l'homme de maniére silencieuse. Des cas de septiémies ont été décrites en 2021 chez l'homme  d'où la nécessité d'une surveillance accrue.
+Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) avait pour but d'isoler et de caractériser des clones d'*Escherichia coli* multirésistants (le whole génome sequencing, WGS) grâce au séqençage de  leur génome entier.   
+Dans un contexte de malnutrition aigûe sévère des chez des enfants de moins de 5 ans , l'OMS préconise l'utilisation d'antibiotique pour le traitement de ces enfants malnutris.   
+Par contre, celà contribut à  une sélection et à des infections dues par des bactéries multirésistantes. 
+Plusieurs études menées sur tous les continents ont systématiquement démontré que les E. coli porteuses du gène CTX-M-15 figurent parmi les entérobactéries productrices de BLSE les plus répandues (15).   
+Cela suppose que les enfants atteints de malnutrition aiguë sévère pourraient être un réservoir de clones multirésistants d’E. coli d’où la nécessité d’une surveillance accrue et de développement d’options thérapeutiques plus efficaces pour ces enfants, qui sont les plus vulnérables.  
 
 #### [📌Objecif : ](objectif)   
 Ainsi l'objectif de cette étude est d'isoler cette bactérie grâce à une culture sélective sur Mac Conkey (MC) et de  caractériser son génome grâce à l'analyse bioinformatique.  
 
  #### [📍Echantillons  ](echanti)
- Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*, *Escherichia marmotae* et *Escherichia fergusonii*.      
+ Nos échantillons ont été selectionnées sur la base d'un précédent shotgun qui a montré une fréquence élevée en *Escherichia coli*
 
  Sur cette repository, nous avons chargé l'ensemble des fichiers et scripts nécessaires pour analyser ces données.  
  Les reads sont téléchargeables sur zenodo en cliquant [**ici**]()
