@@ -406,7 +406,7 @@ Yoon, S. H., Ha, S. M., Lim, J. M., Kwon, S.J. & Chun, J. (2017). A large-scale 
 
 
 # [__Phylogroupes des souches d'*Escherichia*__](phylogroupes)  
-Clermont permet de classer les souches d'Escherichia coli dans de grands groupes phylogénétiques (phylogroupes) en fonction de la présence ou de l'absence de certains marqueurs génétiques.  
+Clermont phylotyping est une méthode méthode de phylogroupage permettant de classer les souches d'Escherichia coli dans de grands groupes phylogénétiques (phylogroupes) en fonction de la présence ou de l'absence de certains marqueurs génétiques.  
 
 Cette méthode renseigne sur les relations évolutives entre les souches et donne souvent des indices sur leur écologie ou leur potentiel de virulence.  
 
