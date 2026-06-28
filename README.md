@@ -71,8 +71,9 @@ Ainsi l'objectif de cette étude est d'd’investiguer le portage fécal de clon
    * TYGS : Hybridation ADN-ADN (dDDH)
 *  [__Typage des souches d'*Escherichia*__](typage)
    * mlst
+*  [__Phylogroupes des souches d'*Escherichia*__](phylogroupes)
+   *  ClermonTyping
 *  [__Construire d'arbre phylogénétique__](tree)
-   * IQtree
    * MEGA v.11
  
 
