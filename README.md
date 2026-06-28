@@ -394,7 +394,7 @@ TYGS, le serveur de génomes de type (souche), est un serveur Web à haut débit
 
 Il vous permet d'identifier ou de classer les souches procaryotes et fournit des phylogénies basées sur le génome avec support de branche, délimitation des (sous-)espèces via DDH numérique, différences dans le contenu génomique G+C et bien plus encore.   
 
-Consultable sur [__TYGS_](https://tygs.dsmz.de/user_requests/new))
+Consultable sur [__TYGS_](https://tygs.dsmz.de/user_requests/new)
 
 
 
