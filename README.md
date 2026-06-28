@@ -31,10 +31,13 @@ Culture bacterienne                |  Extraction ADN
 ## [🔵Description : ](description)    
 Cette étude portant sur le microbiote des enfants atteints de malnutrition aigue sévère en République Démocratique du Congo (RDC) avait pour but d'isoler et de caractériser des clones d'*Escherichia coli* multirésistants (le whole génome sequencing, WGS) grâce au séqençage de  leur génome entier.     
 
-Dans un contexte de malnutrition aigue sévère des chez des enfants de moins de 5 ans , l'OMS préconise l'utilisation systématique d'antibiotique pour le traitement de ces enfants malnutris.    
+Dans le contexte de la malnutrition aiguë sévère chez les enfants de moins de cinq ans, Organisation mondiale de la Santé recommande l'administration systématique d'antibiotiques, en raison du risque élevé d'infections bactériennes et de la forte mortalité associée à cette pathologie.
 
-Cependant, l'usage abusive d'antibiotiques contribue à  un accroisement des risques de sélection et développer des infections dues par des bactéries multirésistantes. 
-Plusieurs études menées sur tous les continents ont systématiquement démontré que les E. coli porteuses du gène CTX-M-15 figurent parmi les entérobactéries productrices de BLSE les plus répandues.   
+Toutefois, l'utilisation répétée ou inappropriée des antibiotiques favorise une pression de sélection qui peut conduire à l'émergence et à la dissémination de bactéries multirésistantes.  
+
+Par ailleurs, de nombreuses études menées à travers le monde ont montré que les souches d'E. coli productrices de β-lactamases à spectre étendu (BLSE), en particulier celles porteuses du gène blaCTX-M-15 figurent parmi les entérobactéries multirésistantes les plus fréquemment isolées en milieu communautaire et hospitalier.
+
+Ainsi, les enfants atteints de malnutrition aiguë sévère pourraient constituer un réservoir de clones multirésistants d'E. coli, susceptibles de favoriser la propagation de la résistance aux antibiotiques. Ces observations soulignent l'importance d'une surveillance génomique continue de ces souches et du développement de stratégies thérapeutiques plus efficaces et adaptées à cette population particulièrement vulnérable.
 
 Cela suppose que les enfants atteints de malnutrition aiguë sévère pourraient être un réservoir de clones multirésistants d’E. coli d’où la nécessité d’une surveillance accrue et de développement d’options thérapeutiques plus efficaces pour ces enfants, qui sont les plus vulnérables.  
 
