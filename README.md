@@ -388,7 +388,7 @@ L'ANI est largement utilisée pour comparer deux séquences de génomes procaryo
 
 
 
-#  [__TYGS : Hybridation ADN-ADN (dDDH)___](dDDH)   
+#  [__TYGS : Hybridation ADN-ADN (dDDH)__](dDDH)  
 
 TYGS, le serveur de génomes de type (souche), est un serveur Web à haut débit convivial pour la taxonomie des procaryotes basée sur le génome, connecté à une base de données importante et en constante expansion d'informations génomiques, taxonomiques et nomenclaturales.    
 
