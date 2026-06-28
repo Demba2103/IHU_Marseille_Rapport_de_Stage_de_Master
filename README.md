@@ -399,13 +399,18 @@ Consultable sur [**TYGS**](https://tygs.dsmz.de/user_requests/new)
 
 
 
-
-
 *   [**Citations :**](citation)
 
 Yoon, S. H., Ha, S. M., Lim, J. M., Kwon, S.J. & Chun, J. (2017). A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie van Leeuwenhoek. 110:1281–1286
 
 
+
+# [__Phylogroupes des souches d'*Escherichia*__](phylogroupes)  
+Clermont permet de classer les souches d'Escherichia coli dans de grands groupes phylogénétiques (phylogroupes) en fonction de la présence ou de l'absence de certains marqueurs génétiques.  
+
+Cette méthode renseigne sur les relations évolutives entre les souches et donne souvent des indices sur leur écologie ou leur potentiel de virulence.  
+
+Consultable [__ici__](https://ezclermont.hutton.ac.uk/)
 
 #  [__Typage des souches d'*Escherichia*__](typage)  
 Le typage par séquençage MLST (MultiLocus Sequencing Typing) est la technique de référence pour discriminer différentes souches. Cette méthode est basée sur le séquençage de « gènes de ménage » (house-keeping genes) codant pour des protéines essentielles de la bactérie.  
