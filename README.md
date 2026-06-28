@@ -401,7 +401,9 @@ Consultable sur [**TYGS**](https://tygs.dsmz.de/user_requests/new)
 
 *   [**Citations :**](citation)
 
-Yoon, S. H., Ha, S. M., Lim, J. M., Kwon, S.J. & Chun, J. (2017). A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie van Leeuwenhoek. 110:1281–1286
+Yoon, S. H., Ha, S. M., Lim, J. M., Kwon, S.J. & Chun, J. (2017). A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie van Leeuwenhoek. 110:1281–1286.  
+
+Meier-Kolthoff JP & Göker M. (2019).TYGS is an automated high-throughput platform for state-of-the-art genome-based taxonomy.Nature Communications, 10, 2182.DOI : 10.1038/s41467-019-10210-3
 
 
 
@@ -410,7 +412,12 @@ Clermont phylotyping est une méthode méthode de phylogroupage permettant de cl
 
 Cette méthode renseigne sur les relations évolutives entre les souches et donne souvent des indices sur leur écologie ou leur potentiel de virulence.  
 
-Consultable [__ici__](https://ezclermont.hutton.ac.uk/)
+Consultable [__ici__](https://ezclermont.hutton.ac.uk/)  
+
+
+*   [**Citations :**](citation)
+
+Clermont O, Bonacorsi S, Bingen E. Rapid and simple determination of the Escherichia coli phylogenetic group. Applied and Environmental Microbiology. 2000;66(10):4555–4558.
 
 #  [__Typage des souches d'*Escherichia*__](typage)  
 Le typage par séquençage MLST (MultiLocus Sequencing Typing) est la technique de référence pour discriminer différentes souches. Cette méthode est basée sur le séquençage de « gènes de ménage » (house-keeping genes) codant pour des protéines essentielles de la bactérie.  
