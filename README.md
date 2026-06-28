@@ -66,9 +66,9 @@ Ainsi l'objectif de cette étude est d'd’investiguer le portage fécal de clon
    * Kraken2
 *  [__pangenome__](pan)
    * roary
-*  [__Average Nucleotidique identity__](average)
-   * FastANI
-   * ddh
+*  [__Average Nucleotidique identity et Hybridation ADN-ADN___](average)
+   * EzBioCloud (ANI)
+   * TYGS : Hybridation ADN-ADN (dDDH)
 *  [__Typage des souches d'*Escherichia*__](typage)
    * mlst
 *  [__Construire d'arbre phylogénétique__](tree)
@@ -384,39 +384,26 @@ Andrew J. Page, Carla A. Cummins, Martin Hunt, Vanessa K. Wong, Sandra Reuter, M
 
 
 #  [__Average Nucleotidique identity__](average)   
-FastANI est développé pour le calcul rapide et sans alignement de l'identité nucléotidique moyenne (ANI) du génome entier.  
-L'ANI est définie comme l'identité nucléotidique moyenne des paires de gènes orthologues partagées entre deux génomes microbiens.  
-  
-FastANI prend en charge la comparaison par paires d'assemblages de génomes complets et d'ébauches. Sa procédure sous-jacente suit un flux de travail similaire à celui décrit par Goris et al. (2007) .   
-Cependant, elle évite les alignements de séquences coûteux et utilise Mashmap comme moteur de mappage de séquences basé sur MinHash pour calculer les correspondances orthologues et les estimations d'identité d'alignement.
+L'ANI est largement utilisée pour comparer deux séquences de génomes procaryotes lors de la classification et de l'identification de bactéries, en calculant la valeur ANI de ces deux séquences. Notre calculateur d'ANI utilise l'algorithme OrthoANIu, une version améliorée de l'algorithme OrthoANI original, qui utilise USEARCH au lieu de BLAST (Lee et al., 2015). Pour les grands ensembles de données, veuillez consulter l'outil OrthoANIu autonome disponible [__ici__](https://www.ezbiocloud.net/)  
 
 
 
-# [Installation](installation)    
+#  [__TYGS : Hybridation ADN-ADN (dDDH)___](dDDH)   
 
-  ```
-conda install bioconda::fastani
-```
+TYGS, le serveur de génomes de type (souche), est un serveur Web à haut débit convivial pour la taxonomie des procaryotes basée sur le génome, connecté à une base de données importante et en constante expansion d'informations génomiques, taxonomiques et nomenclaturales.    
 
-# [Execution](execution)    
+Il vous permet d'identifier ou de classer les souches procaryotes et fournit des phylogénies basées sur le génome avec support de branche, délimitation des (sous-)espèces via DDH numérique, différences dans le contenu génomique G+C et bien plus encore.   
 
-Calcul entre un génome requête et un génome de référence 
-```
-$ ./fastANI -q [QUERY_GENOME] -r [REFERENCE_GENOME] -o [OUTPUT_FILE]
-```
+Consultable sur [__TYGS_](https://tygs.dsmz.de/user_requests/new))
 
-Calcul entre un génome requête et plusieurs génomes de référence 
-```
-$ ./fastANI -q [QUERY_GENOME] --rl [REFERENCE_LIST] -o [OUTPUT_FILE]
-```
+
 
 
 
 *   [**Citations :**](citation)
 
-Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. L’analyse ANI à haut débit de 90 000 génomes procaryotes révèle des limites d’espèces claires. 2017 ; [doi : 10.1101/225342](https://doi.org/10.1101/225342)
+Yoon, S. H., Ha, S. M., Lim, J. M., Kwon, S.J. & Chun, J. (2017). A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie van Leeuwenhoek. 110:1281–1286
 
-Goris J, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM. Valeurs d'hybridation ADN-ADN et leur relation avec les similitudes des séquences du génome entier. Int J Syst Evol Microbiol. 2007;57 : 81 91. est ce que je:10.1099/ijs.0.64483-0, [doi: 10.1099/ijs.0.64483-0](https://www.ncbi.nlm.nih.gov/pubmed/17220447)  
 
 
 #  [__Typage des souches d'*Escherichia*__](typage)  
